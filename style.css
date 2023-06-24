@@ -1,0 +1,1034 @@
+@font-face{
+    font-family: Sofia;
+    src: url(SofiaSansSemiCondensed-Italic-VariableFont_wght.ttf);
+    src: url(SofiaSansSemiCondensed-VariableFont_wght.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+body{
+    width: 95%;
+    height: 95%;
+   
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    background-color: #973EFF;
+    align-items: center;
+   padding: 0 30% 0 30%;
+   width: 100%;
+    justify-self: center;
+}
+
+.container .container_title{
+    font-family: Sofia;
+    font-style: normal;
+    font-size: 15px;
+    margin-left: 1rem;
+    color: white;
+  
+}
+.learninghub{
+    display: flex;
+    flex-direction: row;
+    margin-left: 10%;
+    margin-right: 10%;
+   align-items: center;
+   box-sizing: border-box;
+}
+.learninghub .fa-sharp fa-solid fa-bars {
+    display: block;
+}
+.learninghub circle{
+    background-color: gainsboro;
+   width: 42px;
+   height: 42px;
+   border-radius: 50%;
+   margin-top: 1rem;
+}
+.learninghub .learninghub_block{
+    display: flex;
+    flex-direction: row;
+}
+.learninghub img{
+    padding-top: 10px;
+    padding-left: 10px;
+    margin-right: 10px;
+}
+.learninghub .learning_title{
+    margin-left: 1rem;
+    font-family: Sofia;
+}
+.learninghub ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+   list-style: none;
+    margin-left: 500px;
+   
+}
+.learninghub ul li{
+    margin-right: 1rem;
+   font-family: Sofia;
+   font-weight: bold;
+   cursor: pointer;
+}
+.learninghub ul li:hover{
+    background-color: gainsboro;
+    transition: .5s;
+    border-radius: 5px;
+    margin-top: -10px;
+    margin-left: -10px;
+   padding: 5px 10px 5px 10px;
+}
+
+.figmacourse{
+   display: flex;
+   flex-direction: row;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 5%;
+    font-family: Sofia;
+    border:  gainsboro solid 0.5px ;
+    border-radius: 10px;
+    box-shadow: 1px 2px gainsboro;
+    height: 300px;
+    padding-top: 20px;
+    width: 900px;
+    
+}
+.figmacourse .figmacourse_üst .figmacourse_title{
+    margin-left: 1rem;
+}
+.figmacourse .figmacourse_üst .figmacourse_p{
+    margin-bottom: 3rem;
+    margin-top: 2rem;
+    margin-left: 1rem;
+    max-width: 300px;
+    font-size: x-large;
+    opacity: 0.8;
+    box-sizing: border-box;
+}
+.figmacourse .figmacourse_üst .figmacourse_link{
+   text-decoration: none;
+   color: black;
+}
+
+.figmacourse .figmacourse_üst .link_button{
+   margin-left: 1rem;
+  margin-top: -2rem;
+   border: 0px;
+   cursor: pointer;
+    background-color: gainsboro;
+   align-items: center;
+   padding: 10px 20px;
+   border-radius: 20px;
+   font-family: Sofia;
+   font-size: larger;
+}
+.figmacourse .figmacourse_üst .link_button:hover{
+  color: white;
+    background-color: #3DA2FF;
+   margin-top: -2rem;
+  
+   transition: .6s;
+}
+.figmacourse .figmacourse_alt{
+    display: flex;
+    flex-direction: row;
+}
+ .figmacourse .circle_t {
+    list-style: none;
+    margin-left: 10rem;
+    margin-top: 2rem;
+}
+.figmacourse .circle_t .circle_t_li1{
+    background-color: red;
+    color: red;
+    padding: 10px 0 0  10px;
+   height:70px ;
+   width: 70px;
+    border-radius: 50px 0 0 50px;
+   margin-top: -1rem;
+  
+}
+.figmacourse .circle_t .circle_t_li2{
+    background-color: #A259FF;
+    color: #A259FF;
+    padding: 10px 0 0 10px;
+   height:70px ;
+   width: 70px;
+    border-radius: 50px 0 0 50px;
+   
+}
+.figmacourse .circle_t .circle_t_li3{
+    background-color: #0ACF83;
+    color: #0ACF83;
+    padding: 10px 0 0 10px;
+   height:70px ;
+   width: 70px;
+    border-radius: 50px 0 50px 50px;
+   
+}
+ .figmacourse .circle_p{
+    list-style: none;
+    margin: 1rem 0 0 ;
+}
+.figmacourse .circle_p .circle_p_li1{
+    background-color: #ff7262;
+    color: #ff7262;
+    padding: 10px 0 0 10px;
+   height:70px ;
+   width: 70px;
+    border-radius: 0 50px 50px 0;
+    margin-left: -2.5rem;
+   
+}
+.figmacourse .circle_p .circle_p_li2{
+    background-color: #1ABCFE;
+    color: #1ABCFE;
+    padding: 10px 0 0 10px;
+   height:70px ;
+   width: 70px;
+    border-radius: 50px 50px 50px 50px;
+    margin-left: -2.5rem;
+   
+}
+.top{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 900px;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 3%;
+    font-family: Sofia;
+}
+.top a{
+    color: #3DA2FF;
+    text-decoration: none;
+}
+.top a:hover{
+    background: #1ABCFE;
+    color: white;
+    padding: 1rem 2rem 1rem 2rem;
+    border-radius: 5px;
+    transition: 0.6s;
+}
+.tablo{
+    display: flex;
+    flex-direction: row;
+    width: 900px;
+    margin: 5% 25% 0 14%;
+    font-family: Sofia;
+}
+.tablo .tablo_1{
+    margin-right: 2rem;
+    margin-left: 1rem;
+    border: gainsboro solid 0.5px;
+    border-radius: 10px;
+    padding-bottom: 2rem;
+    box-sizing: border-box;
+    height: 450px;
+}
+.tablo .tablo_1 img{
+    padding: 10% 30% 10% 30%;
+   
+    border-radius: 10px 10px 0 0;
+   width: 173px;
+    background-image: linear-gradient( to top right,purple,blue);
+}
+.tablo .tablo_1 h1{
+    margin-left: 2rem;
+}
+.tablo .tablo_1 p{
+    margin-left: 2rem;
+    width: 400px;
+    margin-bottom: 3rem
+}
+.tablo .tablo_1 button{
+    background-color: #3DA2FF;
+    width: 100px;
+    height: 40px;
+    border: 0px;
+    color: white;
+   margin-left: 2rem;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    box-sizing: border-box;
+}
+.tablo .tablo_1 button:hover{
+    background-color: white;
+    color: #1ABCFE;
+    margin-top: -2rem;
+    margin-left: 3rem;
+    
+    margin-left: 2rem;
+    transition: .7s;
+    border: gainsboro solid 1px ;
+    box-sizing: border-box;
+}
+.tablo .tablo_2{
+    margin-right: 2rem;
+    margin-left: 1rem;
+    border: gainsboro solid 0.5px;
+    border-radius: 10px;
+    padding-bottom: 2rem;
+    height: 416px;
+}
+.tablo .tablo_2 img{
+    padding: 10% 30% 10% 30%;
+   
+    border-radius: 10px 10px 0 0;
+   width: 165px;
+   height: 110px;
+    background-image: linear-gradient( to top right,purple,orange);
+}
+.tablo .tablo_2 h1{
+    margin-left: 2rem;
+    margin-top: -0.4;
+}
+.tablo .tablo_2 p{
+    margin-left: 2rem;
+    width: 380px;
+    margin-bottom: 2rem;
+}
+.tablo .tablo_2 button{
+    background-color: #3DA2FF;
+    width: 100px;
+    height: 40px;
+    margin-left: 2rem;
+    margin-top: 0.7rem;
+    border: 0px;
+    color: white;
+    padding-top: 5px;
+    padding-bottom: 6px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.tablo .tablo_2 button:hover{
+    background-color: white;
+    color: #1ABCFE;
+   margin-top: -0.1rem;
+    
+    transition: .5s;
+    border: gainsboro solid 1px ;
+    box-sizing: border-box;
+}
+.web{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin: 4% 10% 4% 15%;
+    font-family: Sofia;
+    background-color: gainsboro;
+    border-radius: 15px;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+ }
+ .web .web_sol{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+ }
+ .web .web_sol circle{
+    width: 60px;
+    height: 60px;
+    background-color: white;
+    padding-left: 13px;
+    padding-top: 10px;
+    border-radius: 10px;
+    margin-right: 1rem;
+   
+ }
+ .web .web_sol .web_1 title{
+    width: 90px;
+ }
+ .web .web_sol .web_1 p{
+    width: 300px;
+    margin-top: -1rem;
+ }
+ .web button{
+    height: 30px;
+    border-radius: 10px;
+    border: gainsboro 0px;
+    font-family: Sofia;
+    cursor: pointer;
+ }
+ .web button:hover{
+    background-color: rgb(48, 47, 47);
+    color: white;
+ }
+ .web .emailadress{
+    margin-left: 50px;
+    margin-right: -20px;
+    height: 30px;
+    width: 150px;
+    border-radius: 10px;
+    border-color: gainsboro ;
+    border: 0px;
+    font-family: Sofia;
+ }
+ .recent .recent_title{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 11% 0 15%;
+    font-family: Sofia;
+ }
+ .recent .recent_title a{
+  color: #1ABCFE;
+  cursor: pointer;
+ }
+ .recent .recent_title a:hover{
+    background: #1ABCFE;
+    color: white;
+    padding: 1rem 2rem 1rem 2rem;
+    border-radius: 5px;
+    transition: .6s;
+ }
+ .recent .recent_tabela {
+   display: flex;
+   flex-direction: row;
+   margin: 0 15% 0 15%;
+   justify-content: space-between;
+ }
+ .recent .recent_tabela .tabela_1{
+    width: 270px;
+    margin-right: 1rem;
+    margin-left: 1rem;
+    font-family: Sofia;
+    height: 430px;
+ }
+ .recent .recent_tabela .tabela_1 img{
+    background-image: linear-gradient(to bottom left,blue,purple);
+   border-radius: 10px 10px 0 0;
+    border: px solid ;
+   padding: 70px 50px 70px 50px;
+    width: 170px;
+    height:50px
+ }
+ .recent .recent_tabela .tabela_1 h2{
+    margin-left: 1rem;
+ }
+ .recent .recent_tabela .tabela_1 button{
+    margin-left: 1rem;
+    margin-top: 1rem;
+    border: 0px;
+    color: white;
+    background-color: #3DA2FF;
+    height: 40px;
+    width: 80px;
+    border-radius: 10px;
+    cursor: pointer;
+ }
+ .recent .recent_tabela .tabela_1 button:hover{
+    background-color: white;
+    color: #1ABCFE;
+    margin-top: -0.1rem;
+    transition: .8s;
+ }
+ .recent .recent_tabela .tabela_1 p{
+    margin-left: 1rem;
+ }
+ 
+ 
+ 
+ .recent .recent_tabela .tabela_2{
+    width: 270px;
+    margin-right: 1rem;
+    margin-left: 1rem;
+    font-family: Sofia;
+ }
+ .recent .recent_tabela .tabela_2 img{
+    background-image: linear-gradient(to bottom left,orange,purple);
+   border-radius: 10px 10px 0 0;
+    border: px solid ;
+   padding: 70px 50px 70px 50px;
+    width: 170px;
+    height:50px
+ }
+ .recent .recent_tabela .tabela_2 h2{
+    margin-left: 1rem;
+ }
+ .recent .recent_tabela .tabela_2 button{
+    margin-left: 1rem;
+    margin-top: 1rem;
+    border: 0px;
+    color: white;
+    background-color: #3DA2FF;
+    height: 40px;
+    width: 80px;
+    border-radius: 10px;
+    cursor: pointer;
+ }
+ .recent .recent_tabela .tabela_2 button:hover{
+    background-color: white;
+    color: #1ABCFE;
+   margin-top: -0.1rem;
+    transition: .8s;
+ }
+ .recent .recent_tabela .tabela_2 p{
+    margin-left: 1rem;
+ }
+ .recent .recent_tabela .tabela_2{
+    width: 300px;
+ }
+ .recent .recent_tabela .tabela_3{
+    width: 270px;
+    margin-right: 2rem;
+    margin-left: 1rem;
+    font-family: Sofia;
+ }
+ .recent .recent_tabela .tabela_3 img{
+    background-image: linear-gradient(to bottom left,red,rgb(89, 239, 212));
+   border-radius: 10px 10px 0 0;
+    border: px solid ;
+   padding: 70px 50px 70px 50px;
+    width: 170px;
+    height:50px
+ }
+ .recent .recent_tabela .tabela_3 h2{
+    margin-left: 1rem;
+ }
+ .recent .recent_tabela .tabela_3 button{
+    margin-left: 1rem;
+    margin-top: 1rem;
+    border: 0px;
+    color: white;
+    background-color: #3DA2FF;
+    height: 40px;
+    width: 80px;
+    border-radius: 10px;
+    cursor: pointer;
+ }
+ .recent .recent_tabela .tabela_3 button:hover{
+    background-color: white;
+    color: #1ABCFE;
+   margin-top: -0.1rem;
+    transition: .8s;
+ }
+ .recent .recent_tabela .tabela_3 p{
+    margin-left: 1rem;
+ }
+ .recent .recent_tabela .tabela_3{
+    width: 300px;
+ }
+ .categories .categories_title{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 11% 0 15%;
+    font-family: Sofia;
+ }
+ .categories .categories_title a{
+    color: #1ABCFE;
+    cursor: pointer;
+   }
+   .categories .categories_title a:hover{
+    background: #1ABCFE;
+    color: white;
+    padding: 1rem 2rem 1rem 2rem;
+    border-radius: 5px;
+    transition: .6s;
+ }
+   .categories .categories_tabela{
+    display: flex;
+    flex-direction: row;
+    margin: 0 15% 0 15%;
+    justify-content: space-between;
+   }
+.categories .categories_tabela .tabela_1{
+    width: 270px;
+    margin-right: 0.4rem;
+    margin-left: 0.5rem;
+    font-family: Sofia;
+    
+ }
+.categories  .tabela_1 .tabela_1_img{
+    background-image: linear-gradient(to bottom left,orange,purple);
+   border-radius: 10px 10px 10px 10px;
+    border:0px solid ;
+   padding: 50px 0px 97px 90px;
+    width: 170px;
+    height:10px
+ }
+ .categories  .tabela_1 .tabela_1_img h1{
+    font-size: xx-large;
+    color: white;
+    margin-left: 5px;
+    margin-right: 60px;
+    
+ }
+ .categories .categories_tabela .tabela_2{
+    width: 270px;
+    margin-right: 1.3rem;
+    margin-left: 2rem;
+    font-family: Sofia;
+ }
+ .categories .categories_tabela .tabela_2_img{
+    background-image: linear-gradient(to bottom left,blue,purple);
+   border-radius: 10px 10px 10px 10px;
+    border: px solid ;
+   padding: 60px 50px 87px 50px;
+    width: 170px;
+    height:10px
+ }
+ .categories  .tabela_2 .tabela_2_img h1{
+    font-size: xx-large;
+    color: white;
+    margin-left: 35px;
+    margin-right: 60px;
+    margin-top: -3px;
+ }
+ .categories .categories_tabela .tabela_3{
+    width: 270px;
+    margin-right: 2rem;
+    margin-left: 1rem;
+    font-family: Sofia;
+ }
+ .categories .categories_tabela .tabela_3_img{
+    background-image: linear-gradient(to bottom left,red,orange);
+   border-radius: 10px 10px 10px 10px;
+    border: px solid ;
+   padding: 70px 50px 70px 50px;
+    width: 170px;
+    height:15px;
+   
+ }
+ .categories  .tabela_3 .tabela_3_img h1{
+    font-size: xx-large;
+    color: white;
+    margin-left: 10px;
+    margin-right: 60px;
+    margin-top: -10px;
+ }
+ .son .tablo_üst{
+    display: flex;
+    flex-direction: row;
+    margin: 5% 15% 5% 15%;
+    justify-content: space-between;
+   font-family: Sofia;
+ }
+ .son .tablo_üst .tablo_1{
+   margin-left: 30px;
+ }
+ .son .tablo_üst .tablo_1 ul{
+    list-style: none;
+    margin-left: -35px;
+ }
+ .son .tablo_üst .tablo_1 ul li{
+    margin: 10px 0 10px 0;
+ }
+ .son .tablo_üst .tablo_2{
+    margin-left: 30px;
+  }
+  .son .tablo_üst .tablo_2 ul{
+     list-style: none;
+     margin-left: -35px;
+  }
+  .son .tablo_üst .tablo_2 ul li{
+     margin: 10px 0 10px 0;
+  }
+  .son .tablo_üst .tablo_3{
+    margin-left: 30px;
+  }
+  .son .tablo_üst .tablo_3 ul{
+     list-style: none;
+     margin-left: -35px;
+  }
+  .son .tablo_üst .tablo_3 ul li{
+     margin: 10px 0 10px 0;
+  }
+  .son .tablo_üst .tablo_4{
+    margin-left: 30px;
+  }
+  .son .tablo_üst .tablo_4 ul{
+     list-style: none;
+     margin-left: -35px;
+  }
+  .son .tablo_üst .tablo_4 ul li{
+     margin: 10px 0 10px 0;
+  }
+  .son .tablo_alt{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 20% 0 20%;
+    font-family: Sofia;
+    color: gainsboro;
+  }
+  .son .tablo_alt ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+  }
+  .son .tablo_alt ul li{
+    margin: 0 10px 0 10px;
+    cursor: pointer;
+  }
+  .son .tablo_alt ul li:hover{
+    background-color: gainsboro;
+    color: black;
+    margin-top:-10px;
+    margin-right: -10px;
+    margin-left: -10px;
+    padding: 10px 20px 10px 20px;
+    border-radius: 5px;
+    transition: .6s;
+  }
+  @media screen and (max-width: 320px)  {
+    .container{
+        display: flex;
+        flex-direction: row;
+        background-color: #973EFF;
+        align-items: center;
+       padding: 0 5% 0 5%;
+       width: 100%;
+       
+         }
+         .container .container_title{
+            font-family: Sofia;
+            font-style: normal;
+           font-size: smaller;
+        
+            margin-left: 0.5rem;
+            color: white;
+        }
+        .learninghub{
+            display: flex;
+            flex-direction: column;
+            margin-left: 5%;
+            margin-right: 5%;
+           align-items: center;
+           box-sizing: border-box;
+        }
+        .learninghub .learninghub_block{
+            display: flex;
+            flex-direction: row;
+        }
+        .learninghub circle{
+            background-color: gainsboro;
+            margin-top: 1rem;
+           width: 42px;
+           height: 42px;
+           border-radius: 50%;
+        }
+        .learninghub img{
+            padding-top: 10px;
+            padding-left: 10px;
+            margin-right: 10px;
+        }
+        .learninghub .learning_title{
+            margin-left: 1rem;
+            font-family: Sofia;
+        }
+        .learninghub i{
+            display: block;
+        }
+        .learninghub ul{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+           list-style: none;
+            margin-left: 1rem;
+           
+        }
+        .learninghub ul li{
+            margin-right: 1rem;
+           font-family: Sofia;
+           font-weight: bold;
+           cursor: pointer;
+        }
+        .figmacourse{
+            display: flex;
+            flex-direction: column;
+             margin-left: 10%;
+             margin-right: 10%;
+             margin-top: 5%;
+             margin-bottom: 5rem;
+             font-family: Sofia;
+             border:  gainsboro solid 0.5px ;
+             border-radius: 10px;
+             box-shadow: 1px 2px gainsboro;
+             height: 600px;
+             padding-top: 20px;
+             width: 250px;
+             
+         }
+         .figmacourse .figmacourse_alt{
+            margin-left: -9rem;
+            margin-top: 2rem;
+         }
+         .top{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            width: 230px;
+            margin-left: 10%;
+            margin-right: 15%;
+            margin-top: 3%;
+            font-family: Sofia;
+        }
+        .tablo{
+            display: flex;
+            flex-direction: column;
+            width: 900px;
+            margin: 5% 25% 0 10%;
+            font-family: Sofia;
+        }
+        .tablo .tablo_1{
+            margin-right: 3rem;
+            margin-left: 0.1rem;
+            margin-bottom: 1rem;
+            border: gainsboro solid 0.5px;
+            border-radius: 10px;
+            padding-bottom: 2rem;
+            box-sizing: border-box;
+            height: 450px;
+            height: 400px;
+            width: 250px;
+        }
+        .tablo .tablo_1 img{
+            padding: 10% 30% 10% 30%;
+           
+            border-radius: 10px 10px 0 0;
+           width: 100px;
+            background-image: linear-gradient( to top right,purple,blue);
+        }
+        .tablo .tablo_1 h1{
+            margin-left: 2rem;
+        }
+        .tablo .tablo_1 p{
+            margin-left: 2rem;
+            width: 200px;
+            margin-bottom: 3rem
+        }
+        .tablo .tablo_2{
+            margin-right: 3rem;
+            margin-left: 0.1rem;
+            margin-bottom: 2rem;
+            border: gainsboro solid 0.5px;
+            border-radius: 10px;
+            padding-bottom: 2rem;
+            box-sizing: border-box;
+            height: 450px;
+            width: 250px;
+        }
+        .tablo .tablo_2 img{
+            padding: 10% 30% 10% 30%;
+           
+            border-radius: 10px 10px 0 0;
+           width: 100px;
+            background-image: linear-gradient( to top right,purple,blue);
+        }
+        .tablo .tablo_2 h1{
+            margin-left: 2rem;
+        }
+        .tablo .tablo_2 p{
+            margin-left: 2rem;
+            width: 200px;
+            margin-bottom: 3rem
+        }
+        .tablo .tablo_2 button{
+            background-color: #3DA2FF;
+            width: 100px;
+            height: 40px;
+            margin-left: 2rem;
+           margin-top: -2rem;
+            border: 0px;
+            color: white;
+            padding-top: 5px;
+            padding-bottom: 6px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .web{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-between;
+            margin: 4% 10% 4% 10%;
+            font-family: Sofia;
+            background-color: gainsboro;
+            border-radius: 15px;
+            padding-left: 2rem;
+            padding-right: 2rem;
+            padding-top: 1rem;
+            padding-bottom: 1rem;
+            width: 200px;
+         }
+         .web .web_sol{
+            display: flex;
+            flex-direction: row;
+           
+         }
+         .web .web_sol circle{
+            width: 60px;
+            height: 60px;
+            background-color: white;
+            padding-left: 10px;
+            padding-right: 10px;
+            padding-top: 10px;
+            border-radius: 10px;
+           margin-top: -6rem;
+          
+         }
+         .web .web_sol .web_1 title{
+            width: 10px;
+         }
+         .web .web_sol .web_1 p{
+            width: 180px;
+           margin-bottom: 1rem;
+            margin-top: 1rem;
+            margin-left: -2rem;
+         }
+         .web button{
+            height: 30px;
+            margin-left: -2rem;
+            margin-top: 1rem;
+            border-radius: 10px;
+            border: gainsboro 0px;
+            font-family: Sofia;
+            cursor: pointer;
+         }
+         .web .emailadress{
+            margin-left: -2rem;
+            margin-right: -20px;
+            height: 30px;
+            width: 150px;
+            border-radius: 10px;
+            border-color: gainsboro ;
+            border: 0px;
+            font-family: Sofia;
+         }
+         .recent{
+            margin-left: -1rem;
+         }
+         .recent .recent_tabela {
+            display: flex;
+            flex-direction: column;
+            margin: 0 15% 0 15%;
+            justify-content: space-between;
+          }
+          .recent .recent_tabela .tabela_1{
+            width: 220px;
+            margin-right: 1rem;
+            margin-left: -0.1rem;
+            font-family: Sofia;
+            height: 430px;
+         }
+         .recent .recent_tabela .tabela_2{
+            width: 240px;
+            margin-right: 1rem;
+            margin-left: -0.1rem;
+            font-family: Sofia;
+            height: 430px;
+         }
+         .recent .recent_tabela .tabela_3{
+            width: 240px;
+            margin-right: 1rem;
+            margin-left: -0.1rem;
+            font-family: Sofia;
+            height: 430px;
+         }
+         .categories{
+            margin-left: -0.5rem;
+         }
+         .categories .categories_tabela{
+            display: flex;
+            flex-direction: column;
+            margin: 0 15% 0 15%;
+            justify-content: space-between;
+           }
+           .categories .categories_tabela .tabela_1{
+            width: 240px;
+            margin-right: 0.4rem;
+            margin-left: -0.4rem;
+            font-family: Sofia;
+            margin-bottom: 1rem;
+         }
+         .categories  .tabela_1 .tabela_1_img{
+            background-image: linear-gradient(to bottom left,purple,orange);
+           border-radius: 10px 10px 10px 10px;
+            border:0px solid ;
+           padding-bottom: -5rem;
+            width: 170px;
+            height:30px
+         } 
+         .categories .categories_tabela .tabela_2{
+            width: 200px;
+            margin-right: 0.4rem;
+            margin-left: -0.4rem;
+            font-family: Sofia;
+            
+            margin-bottom: 1rem;
+         }
+         .categories  .tabela_2 .tabela_2_img{
+            background-image: linear-gradient(to bottom left,blue,purple);
+           border-radius: 10px 10px 10px 10px;
+            border:0px solid ;
+           padding-bottom: -5rem;
+            width: 160px;
+            height:30px
+         } 
+         .categories  .tabela_3 .tabela_3_img{
+            background-image: linear-gradient(to bottom left,red,orange);
+           border-radius: 10px 10px 10px 10px;
+            border:0px solid ;
+          margin-left: -1.4rem;
+            width: 160px;
+            height:30px
+         } 
+         .son .tablo_üst{
+            display: flex;
+            flex-direction: row;
+            margin-left: 0.5rem;
+            justify-content: space-between;
+           font-family: Sofia;
+         }
+         .son .tablo_üst .tablo_1{
+            margin-left: 10px;
+            font-size: smaller;
+          }
+          .son .tablo_üst .tablo_2{
+            margin-left: 10px;
+            font-size: smaller;
+          }
+          .son .tablo_üst .tablo_3{
+            margin-left: 10px;
+            font-size: smaller;
+          }
+          .son .tablo_üst .tablo_4{
+            margin-left: 10px;
+            font-size: smaller;
+          }
+          .son .tablo_alt{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            margin: 0 10% 0 5%;
+            font-family: Sofia;
+            color: gainsboro;
+          }
+          .son .tablo_alt ul{
+            display: flex;
+            flex-direction: row;
+            list-style: none;
+            font-size: smaller;
+          }
+          .son .tablo_alt ul li{
+            margin: 0 5px 0 10px;
+            cursor: pointer;
+          }
+}
+    
